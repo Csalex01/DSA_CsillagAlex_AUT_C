@@ -1,2 +1,2 @@
-# Csillag Alex - Adatszerkezetek és Algoritmusok
+## Csillag Alex - Adatszerkezetek és Algoritmusok
 Automatizálás, I. év
