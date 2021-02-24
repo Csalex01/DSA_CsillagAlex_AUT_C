@@ -6,7 +6,7 @@
 #define FELADAT_2_FUNCTIONS_H
 
 void printArr(int* arr, int n);
-void fillArr(int* arr, int n);
+void fillArr(int* arr, int n, int max);
 
 int linearSearch(int* arr, int n, int number);
 
