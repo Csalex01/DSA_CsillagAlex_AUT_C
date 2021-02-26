@@ -4,7 +4,7 @@
 
 #include "functions.h"
 
-#define N 100000000
+#define N 10000
 
 int main() {
     srand(time(NULL));

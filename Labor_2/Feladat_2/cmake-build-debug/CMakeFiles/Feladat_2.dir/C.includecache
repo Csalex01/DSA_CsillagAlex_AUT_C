@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_CsillagAlex_AUT_C/Labor_2/Feladat_2/functions.c
+stdlib.h
+-
+stdio.h
+-
+time.h
+-
+functions.h
+E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_CsillagAlex_AUT_C/Labor_2/Feladat_2/functions.h
+
 E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_CsillagAlex_AUT_C/Labor_2/Feladat_2/functions.h
 
 E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_CsillagAlex_AUT_C/Labor_2/Feladat_2/main.c
