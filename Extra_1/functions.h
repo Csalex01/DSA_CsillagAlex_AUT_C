@@ -9,6 +9,6 @@ void initializeArr(int *arr, int n);
 
 void printArr(int *arr, int n);
 
-int peak(int *arr, int n);
+int peak(const int *arr, int n);
 
 #endif //EXTRA_1_FUNCTIONS_H
