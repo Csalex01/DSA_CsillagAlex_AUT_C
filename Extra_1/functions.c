@@ -23,7 +23,7 @@ void printArr(int *arr, int n) {
 
 int peak(const int *arr, int n) {
     /**
-     * Ha a tömb hossza kisebb mint 3, nincs ahogy egy domb létrejőjjön.
+     * Ha a tömb hossza kisebb mint 3, akkor nem beszélhetünk dombról.
      * Például: 121, 131, 154, 352, stb...
      */
     if (n < 3)
@@ -36,7 +36,7 @@ int peak(const int *arr, int n) {
     int max_i = -1;
 
     /**
-     * A feltételezett csúcs mindkét oldalát nézi, ha a baloldali elem
+     * A feltételezett csúcs mindkét oldalát nézzük. Ha a baloldali elem
      * kisebb, és a jobboldali elem nagyobb mint a kurrens elem, akkor
      * csúcsról beszélünk.
      */
@@ -54,7 +54,7 @@ int peak(const int *arr, int n) {
         max_i = n - 1;
 
     /**
-     * Visszatérítsük a legmagasabb csúcs indexét.
+     * A "legmagasabb" csúcs indexének visszatérítése.
      */
     return max_i;
 }
