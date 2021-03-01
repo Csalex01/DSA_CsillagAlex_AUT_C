@@ -4,19 +4,28 @@
 
 #include "functions.h"
 
-#define N 10000
+const int N = 10000;
 
 int main() {
+
     srand(time(NULL));
 
     int *arr = (int *) malloc(N * sizeof(int));
     int number = rand() % N;
 
+    printf("%i\n", INT_MAX);
+
     fillArr(arr, N, N);
-    // printArr(arr, N);
+
+    clock_t start = clock();
+    int result = linearSearch(arr, N, number);
+    clock_t stop = clock();
+
+    double diff = (double)(stop - start) / CLOCKS_PER_SEC;
 
     printf("A keresett elem: %i\n", number);
-    printf("A keresett elem indexe: %i\n", linearSearch(arr, N, number));
+    printf("A keresett elem indexe: %i\n", result);
+    printf("Lefutasi ido: %f", diff);
 
     free(arr);
 
