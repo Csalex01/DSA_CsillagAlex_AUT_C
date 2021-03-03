@@ -4,18 +4,20 @@
 
 #include "functions.h"
 
-const int N = 10000;
+const int N = 1000000000;
 
 int main() {
 
     srand(time(NULL));
 
     int *arr = (int *) malloc(N * sizeof(int));
-    int number = rand() % N;
+//    int number = rand() % N;
 
-    printf("%i\n", INT_MAX);
+    printf("%i", N);
 
     fillArr(arr, N, N);
+
+    int number = arr[N - 1] / 2;
 
     clock_t start = clock();
     int result = linearSearch(arr, N, number);

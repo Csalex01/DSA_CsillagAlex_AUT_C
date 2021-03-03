@@ -17,7 +17,8 @@ void printArr(int* arr, int n) {
 
 void fillArr(int* arr, int n, int max) {
     for(int i = 0; i < n; i++)
-        arr[i] = rand() % max;
+        arr[i] = i + 1;
+//        arr[i] = rand() % max;
 }
 
 int linearSearch(int* arr, int n, int number) {
