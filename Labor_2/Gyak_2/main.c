@@ -16,7 +16,7 @@ int main() {
 
     double distance = dist(x1, y1, x2, y2);
 
-    printf("dist: %f", distance);
+    printf("dist: %lf", distance);
 
     return 0;
 }
