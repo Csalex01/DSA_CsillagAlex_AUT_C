@@ -142,6 +142,33 @@ Gyak_2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Gyak_2.dir\build.make CMakeFiles/Gyak_2.dir/build
 .PHONY : Gyak_2/fast
 
+functions.obj: functions.c.obj
+
+.PHONY : functions.obj
+
+# target to build an object file
+functions.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Gyak_2.dir\build.make CMakeFiles/Gyak_2.dir/functions.c.obj
+.PHONY : functions.c.obj
+
+functions.i: functions.c.i
+
+.PHONY : functions.i
+
+# target to preprocess a source file
+functions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Gyak_2.dir\build.make CMakeFiles/Gyak_2.dir/functions.c.i
+.PHONY : functions.c.i
+
+functions.s: functions.c.s
+
+.PHONY : functions.s
+
+# target to generate assembly for a file
+functions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Gyak_2.dir\build.make CMakeFiles/Gyak_2.dir/functions.c.s
+.PHONY : functions.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -178,6 +205,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Gyak_2
+	@echo ... functions.obj
+	@echo ... functions.i
+	@echo ... functions.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

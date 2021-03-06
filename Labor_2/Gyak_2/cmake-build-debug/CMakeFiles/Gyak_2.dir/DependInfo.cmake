@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_CsillagAlex_AUT_C/Labor_2/Gyak_2/functions.c" "E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_CsillagAlex_AUT_C/Labor_2/Gyak_2/cmake-build-debug/CMakeFiles/Gyak_2.dir/functions.c.obj"
   "E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_CsillagAlex_AUT_C/Labor_2/Gyak_2/main.c" "E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_CsillagAlex_AUT_C/Labor_2/Gyak_2/cmake-build-debug/CMakeFiles/Gyak_2.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

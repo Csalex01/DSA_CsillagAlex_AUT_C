@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Gyak_2.dir/functions.c.obj"
   "CMakeFiles/Gyak_2.dir/main.c.obj"
   "Gyak_2.exe"
   "Gyak_2.exe.manifest"
