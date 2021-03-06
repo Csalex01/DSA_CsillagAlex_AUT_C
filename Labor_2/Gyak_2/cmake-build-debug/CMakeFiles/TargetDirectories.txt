@@ -1,0 +1,3 @@
+E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_CsillagAlex_AUT_C/Labor_2/Gyak_2/cmake-build-debug/CMakeFiles/Gyak_2.dir
+E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_CsillagAlex_AUT_C/Labor_2/Gyak_2/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_CsillagAlex_AUT_C/Labor_2/Gyak_2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
