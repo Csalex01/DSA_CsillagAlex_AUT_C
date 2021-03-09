@@ -134,17 +134,10 @@ void deleteElement(IntArray* array, int element) {
 }
 
 void copy(IntArray* arrayTo, IntArray* arrayFrom) {
-    if(!arrayFrom)
+    if(!arrayFrom || arrayTo->size > arrayFrom->size)
         return;
 
-    arrayTo = (IntArray*)malloc(sizeof(IntArray));
-
-    if(!arrayTo) {
-        printf("Failed to allocate buffer of original array!");
-        return;
-    }
-
-    arrayTo->elements = (int*)malloc(arrayFrom->size * sizeof(int));
+    arrayTo->elements = (int*)malloc(arrayTo->size * sizeof(int));
 
     for(int i = 0; i < arrayTo->size; i++)
         arrayTo->elements[i] = arrayFrom->elements[i];
