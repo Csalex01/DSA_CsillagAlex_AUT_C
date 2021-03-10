@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_CsillagAlex_AUT_C/Labor_4/matrix_feladat/main.c
+stdio.h
+-
+matrix_functions.h
+E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_CsillagAlex_AUT_C/Labor_4/matrix_feladat/matrix_functions.h
+
+E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_CsillagAlex_AUT_C/Labor_4/matrix_feladat/matrix_functions.c
+stdlib.h
+-
+stdio.h
+-
+matrix_functions.h
+E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_CsillagAlex_AUT_C/Labor_4/matrix_feladat/matrix_functions.h
+
+E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_CsillagAlex_AUT_C/Labor_4/matrix_feladat/matrix_functions.h
+
