@@ -7,21 +7,29 @@
 
 typedef struct {
     int size;
-    int* elements;
+    int *elements;
 } IntArray;
 
-IntArray* createArray(int dimension);
+IntArray *createArray(int dimension);
 
-int findElement(IntArray* array, int element);
-int minimum(IntArray* array);
-int maximum(IntArray* array);
+int findElement(IntArray *array, int element);
 
-void readArray(const char* fileName, IntArray **array);
-void fillArray(IntArray* array, int dimension, int first, int last);
-void printArray(IntArray* array);
-void printArrayToFile(const char* fileName, IntArray* array);
-void sortArray(IntArray* array);
-void deleteElement(IntArray* array, int element);
-void copy(IntArray* arrayTo, IntArray* arrayFrom);
+int minimum(IntArray *array);
+
+int maximum(IntArray *array);
+
+void readArray(const char *fileName, IntArray **array);
+
+void fillArray(IntArray *array, int dimension, int first, int last);
+
+void printArray(IntArray *array);
+
+void printArrayToFile(const char *fileName, IntArray *array);
+
+void sortArray(IntArray *array);
+
+void deleteElement(IntArray *array, int element);
+
+void copy(IntArray *arrayTo, IntArray *arrayFrom);
 
 #endif //TOMB_TETEL_FUNCTIONS_H
