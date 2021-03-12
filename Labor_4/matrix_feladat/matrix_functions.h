@@ -13,7 +13,10 @@ typedef struct {
 
 Matrix* createMatrix(int rows, int cols);
 
+int minimum(Matrix* matrix);
+
 void readMatrix(const char* fileName, Matrix **array);
 void printMatrix(Matrix* array);
+void deleteRow(Matrix* matrix, int nr);
 
 #endif //MATRIX_FELADAT_MATRIX_FUNCTIONS_H
