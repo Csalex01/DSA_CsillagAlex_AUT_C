@@ -30,12 +30,12 @@ Matrix *createMatrix(int rows, int cols) {
     return matrix;
 }
 
-int minimum(Matrix* matrix) {
+int minimum(Matrix *matrix) {
     int min = matrix->data[0][0];
 
-    for(int i = 0; i < matrix->rows; i++)
-        for(int j = 0; j < matrix->cols; j++)
-            if(matrix->data[i][j] < min)
+    for (int i = 0; i < matrix->rows; i++)
+        for (int j = 0; j < matrix->cols; j++)
+            if (matrix->data[i][j] < min)
                 min = matrix->data[i][j];
 
     return min;
@@ -75,13 +75,19 @@ void printMatrix(Matrix *array) {
 }
 
 void deleteRow(Matrix *matrix, int nr) {
+    /*
+     * TODO
+     * 0.-ik sor törlésével az algoritmus nem működik helyesen.
+     */
+
     free(matrix->data[nr]);
     matrix->data[nr] = NULL;
-    matrix->rows -= 1;
 
-    for (int i = nr; i < matrix->rows; i++)
+    for (int i = nr; i < matrix->rows - 1; i++)
         matrix->data[i] = matrix->data[i + 1];
 
-    free(matrix->data[matrix->rows]);
-    matrix->data[matrix->rows] = NULL;
+    free(matrix->data[matrix->rows - 1]);
+    matrix->data[matrix->rows - 1] = NULL;
+
+    matrix->rows -= 1;
 }
