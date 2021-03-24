@@ -1,0 +1,3 @@
+E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_CsillagAlex_AUT_C/Labor_6/Queue_Static/cmake-build-debug/CMakeFiles/Queue_Static.dir
+E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_CsillagAlex_AUT_C/Labor_6/Queue_Static/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_CsillagAlex_AUT_C/Labor_6/Queue_Static/cmake-build-debug/CMakeFiles/rebuild_cache.dir
