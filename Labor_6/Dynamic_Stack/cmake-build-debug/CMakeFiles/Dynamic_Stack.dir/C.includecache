@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_CsillagAlex_AUT_C/Labor_6/Dynamic_Stack/main.c
+stdio.h
+-
+stack.h
+E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_CsillagAlex_AUT_C/Labor_6/Dynamic_Stack/stack.h
+
+E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_CsillagAlex_AUT_C/Labor_6/Dynamic_Stack/stack.h
+stdbool.h
+-
+
