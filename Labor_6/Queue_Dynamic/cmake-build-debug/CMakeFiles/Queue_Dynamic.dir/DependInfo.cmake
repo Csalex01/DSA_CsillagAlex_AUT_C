@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_CsillagAlex_AUT_C/Labor_6/Queue_Dynamic/main.c" "E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_CsillagAlex_AUT_C/Labor_6/Queue_Dynamic/cmake-build-debug/CMakeFiles/Queue_Dynamic.dir/main.c.obj"
+  "E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_CsillagAlex_AUT_C/Labor_6/Queue_Dynamic/queue.c" "E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_CsillagAlex_AUT_C/Labor_6/Queue_Dynamic/cmake-build-debug/CMakeFiles/Queue_Dynamic.dir/queue.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

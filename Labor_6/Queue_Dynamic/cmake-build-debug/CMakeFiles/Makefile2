@@ -93,12 +93,12 @@ clean: CMakeFiles/Queue_Dynamic.dir/clean
 CMakeFiles/Queue_Dynamic.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue_Dynamic.dir\build.make CMakeFiles/Queue_Dynamic.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue_Dynamic.dir\build.make CMakeFiles/Queue_Dynamic.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_CsillagAlex_AUT_C\Labor_6\Queue_Dynamic\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target Queue_Dynamic"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_CsillagAlex_AUT_C\Labor_6\Queue_Dynamic\cmake-build-debug\CMakeFiles" --progress-num=1,2,3 "Built target Queue_Dynamic"
 .PHONY : CMakeFiles/Queue_Dynamic.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Queue_Dynamic.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_CsillagAlex_AUT_C\Labor_6\Queue_Dynamic\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_CsillagAlex_AUT_C\Labor_6\Queue_Dynamic\cmake-build-debug\CMakeFiles" 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Queue_Dynamic.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_CsillagAlex_AUT_C\Labor_6\Queue_Dynamic\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/Queue_Dynamic.dir/rule

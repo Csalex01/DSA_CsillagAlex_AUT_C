@@ -77,6 +77,12 @@
 		<Unit filename="E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_CsillagAlex_AUT_C/Labor_6/Queue_Dynamic/main.c">
 			<Option target="Queue_Dynamic"/>
 		</Unit>
+		<Unit filename="E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_CsillagAlex_AUT_C/Labor_6/Queue_Dynamic/queue.c">
+			<Option target="Queue_Dynamic"/>
+		</Unit>
+		<Unit filename="E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_CsillagAlex_AUT_C/Labor_6/Queue_Dynamic/queue.h">
+			<Option target="Queue_Dynamic"/>
+		</Unit>
 		<Unit filename="E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_CsillagAlex_AUT_C/Labor_6/Queue_Dynamic/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

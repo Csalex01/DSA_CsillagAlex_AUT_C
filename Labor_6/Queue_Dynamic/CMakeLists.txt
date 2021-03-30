@@ -3,4 +3,4 @@ project(Queue_Dynamic C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(Queue_Dynamic main.c)
+add_executable(Queue_Dynamic main.c queue.c queue.h)
