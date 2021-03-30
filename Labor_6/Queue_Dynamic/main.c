@@ -8,12 +8,13 @@ int main() {
 
     front = last = NULL;
 
-    insert(&front, &last, 10);
-    insert(&front, &last, 20);
-    insert(&front, &last, 30);
+    for(int i = 0; i < 10; i++)
+        insert(&front, &last, i);
+
 
 //    printf("%i", front->data);
-    traverse(front);
+    traverseIterative(front);
+    printf("\n");
 
-    printf("%i", getIndex(front, 1, 0));
+    printf("%i", getIndex(front, 5, 0));
 }

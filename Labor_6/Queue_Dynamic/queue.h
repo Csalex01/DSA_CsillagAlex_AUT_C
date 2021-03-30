@@ -19,7 +19,7 @@ bool isEmpty(Node* front);
 int delete(Node** front);
 
 void insert(Node** front, Node** last, int data);
-
+void traverseIterative(Node* front);
 void traverse(Node* front);
 
 int getIndex(Node* front, int index, int currPos);

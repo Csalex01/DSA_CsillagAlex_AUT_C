@@ -62,7 +62,18 @@ void traverse(Node* front) {
 
     printf("%i ", front->data);
     traverse((Node *) front->next);
+}
 
+void traverseIterative(Node* front) {
+    if(front == NULL)
+        return;
+
+    Node* next = front;
+
+    while(next != NULL) {
+        printf("%i ", next->data);
+        next = (Node *) next->next;
+    }
 }
 
 int getIndex(Node* front, int index, int currPos) {
@@ -72,5 +83,5 @@ int getIndex(Node* front, int index, int currPos) {
     if(currPos == index)
         return front->data;
 
-    return getIndex((Node *) front->next, index, currPos + 1);
+    getIndex((Node *) front->next, index, currPos + 1);
 }
