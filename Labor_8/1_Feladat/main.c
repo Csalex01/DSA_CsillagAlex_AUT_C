@@ -37,17 +37,17 @@ int main() {
      * 2.
      */
 
-    Node* topPtr = readFromFile("input_stack.txt");
+    Node *topPtr = readFromFile("input_stack.txt");
 
     int sum = 0;
     int counter = 0;
 
-    while(!isEmpty(topPtr)) {
+    while (!isEmpty(topPtr)) {
         sum += pop(&topPtr);
         counter++;
     }
 
-    printf("Average: %c", (char)(sum / counter));
+    printf("Average: %c", (char) (sum / counter));
 
     return 0;
 }

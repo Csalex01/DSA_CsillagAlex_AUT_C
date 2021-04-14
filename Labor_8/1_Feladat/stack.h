@@ -9,17 +9,17 @@
 
 typedef struct {
     char data;
-    struct Node* next;
+    struct Node *next;
 } Node;
 
-Node* createStack();
+Node *createStack();
 
-Node* readFromFile(char* fileName);
+Node *readFromFile(char *fileName);
 
-void push(Node** topPtr, char data);
+void push(Node **topPtr, char data);
 
-bool isEmpty(Node* topPtr);
+bool isEmpty(Node *topPtr);
 
-int pop(Node** topPtr);
+int pop(Node **topPtr);
 
 #endif //INC_1_FELADAT_STACK_H
