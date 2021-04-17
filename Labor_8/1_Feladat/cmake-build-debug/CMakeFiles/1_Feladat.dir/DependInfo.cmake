@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_CsillagAlex_AUT_C/Labor_7/1_Feladat/main.c" "E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_CsillagAlex_AUT_C/Labor_7/1_Feladat/cmake-build-debug/CMakeFiles/1_Feladat.dir/main.c.obj"
-  "E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_CsillagAlex_AUT_C/Labor_7/1_Feladat/queue.c" "E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_CsillagAlex_AUT_C/Labor_7/1_Feladat/cmake-build-debug/CMakeFiles/1_Feladat.dir/queue.c.obj"
-  "E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_CsillagAlex_AUT_C/Labor_7/1_Feladat/stack.c" "E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_CsillagAlex_AUT_C/Labor_7/1_Feladat/cmake-build-debug/CMakeFiles/1_Feladat.dir/stack.c.obj"
+  "E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_CsillagAlex_AUT_C/Labor_8/1_Feladat/main.c" "E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_CsillagAlex_AUT_C/Labor_8/1_Feladat/cmake-build-debug/CMakeFiles/1_Feladat.dir/main.c.obj"
+  "E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_CsillagAlex_AUT_C/Labor_8/1_Feladat/queue.c" "E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_CsillagAlex_AUT_C/Labor_8/1_Feladat/cmake-build-debug/CMakeFiles/1_Feladat.dir/queue.c.obj"
+  "E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_CsillagAlex_AUT_C/Labor_8/1_Feladat/stack.c" "E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_CsillagAlex_AUT_C/Labor_8/1_Feladat/cmake-build-debug/CMakeFiles/1_Feladat.dir/stack.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

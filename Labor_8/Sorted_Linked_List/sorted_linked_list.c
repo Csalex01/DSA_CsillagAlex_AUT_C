@@ -2,10 +2,10 @@
 // Created by csill on 4/17/2021.
 //
 
+#include "sorted_linked_list.h"
+
 #include <stdlib.h>
 #include <stdio.h>
-
-#include "sorted_linked_list.h"
 
 Node* create() {
     Node* newNode = (Node*)calloc(1, sizeof(Node));
@@ -31,9 +31,11 @@ void insert(Node** front, int data) {
     } else {
         Node* p = *front;
 
-        while(p->next != NULL /* NEM MEGY! */) {
+        while(p->next != NULL && ((Node*)(p->next))->data <= newNode->data)
             p = (Node *) p->next;
-        }
+
+        newNode->next = p->next;
+        p->next = (struct Node *) newNode;
     }
 }
 

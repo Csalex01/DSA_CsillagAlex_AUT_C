@@ -62,10 +62,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_CsillagAlex_AUT_C\Labor_7\1_Feladat"
+CMAKE_SOURCE_DIR = "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_CsillagAlex_AUT_C\Labor_8\1_Feladat"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_CsillagAlex_AUT_C\Labor_7\1_Feladat\cmake-build-debug"
+CMAKE_BINARY_DIR = "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_CsillagAlex_AUT_C\Labor_8\1_Feladat\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/1_Feladat.dir/depend.make
@@ -78,42 +78,42 @@ include CMakeFiles/1_Feladat.dir/flags.make
 
 CMakeFiles/1_Feladat.dir/main.c.obj: CMakeFiles/1_Feladat.dir/flags.make
 CMakeFiles/1_Feladat.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_CsillagAlex_AUT_C\Labor_7\1_Feladat\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/1_Feladat.dir/main.c.obj"
-	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\1_Feladat.dir\main.c.obj   -c "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_CsillagAlex_AUT_C\Labor_7\1_Feladat\main.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_CsillagAlex_AUT_C\Labor_8\1_Feladat\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/1_Feladat.dir/main.c.obj"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\1_Feladat.dir\main.c.obj   -c "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_CsillagAlex_AUT_C\Labor_8\1_Feladat\main.c"
 
 CMakeFiles/1_Feladat.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/1_Feladat.dir/main.c.i"
-	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_CsillagAlex_AUT_C\Labor_7\1_Feladat\main.c" > CMakeFiles\1_Feladat.dir\main.c.i
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_CsillagAlex_AUT_C\Labor_8\1_Feladat\main.c" > CMakeFiles\1_Feladat.dir\main.c.i
 
 CMakeFiles/1_Feladat.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/1_Feladat.dir/main.c.s"
-	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_CsillagAlex_AUT_C\Labor_7\1_Feladat\main.c" -o CMakeFiles\1_Feladat.dir\main.c.s
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_CsillagAlex_AUT_C\Labor_8\1_Feladat\main.c" -o CMakeFiles\1_Feladat.dir\main.c.s
 
 CMakeFiles/1_Feladat.dir/queue.c.obj: CMakeFiles/1_Feladat.dir/flags.make
 CMakeFiles/1_Feladat.dir/queue.c.obj: ../queue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_CsillagAlex_AUT_C\Labor_7\1_Feladat\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/1_Feladat.dir/queue.c.obj"
-	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\1_Feladat.dir\queue.c.obj   -c "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_CsillagAlex_AUT_C\Labor_7\1_Feladat\queue.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_CsillagAlex_AUT_C\Labor_8\1_Feladat\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/1_Feladat.dir/queue.c.obj"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\1_Feladat.dir\queue.c.obj   -c "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_CsillagAlex_AUT_C\Labor_8\1_Feladat\queue.c"
 
 CMakeFiles/1_Feladat.dir/queue.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/1_Feladat.dir/queue.c.i"
-	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_CsillagAlex_AUT_C\Labor_7\1_Feladat\queue.c" > CMakeFiles\1_Feladat.dir\queue.c.i
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_CsillagAlex_AUT_C\Labor_8\1_Feladat\queue.c" > CMakeFiles\1_Feladat.dir\queue.c.i
 
 CMakeFiles/1_Feladat.dir/queue.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/1_Feladat.dir/queue.c.s"
-	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_CsillagAlex_AUT_C\Labor_7\1_Feladat\queue.c" -o CMakeFiles\1_Feladat.dir\queue.c.s
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_CsillagAlex_AUT_C\Labor_8\1_Feladat\queue.c" -o CMakeFiles\1_Feladat.dir\queue.c.s
 
 CMakeFiles/1_Feladat.dir/stack.c.obj: CMakeFiles/1_Feladat.dir/flags.make
 CMakeFiles/1_Feladat.dir/stack.c.obj: ../stack.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_CsillagAlex_AUT_C\Labor_7\1_Feladat\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/1_Feladat.dir/stack.c.obj"
-	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\1_Feladat.dir\stack.c.obj   -c "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_CsillagAlex_AUT_C\Labor_7\1_Feladat\stack.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_CsillagAlex_AUT_C\Labor_8\1_Feladat\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/1_Feladat.dir/stack.c.obj"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\1_Feladat.dir\stack.c.obj   -c "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_CsillagAlex_AUT_C\Labor_8\1_Feladat\stack.c"
 
 CMakeFiles/1_Feladat.dir/stack.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/1_Feladat.dir/stack.c.i"
-	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_CsillagAlex_AUT_C\Labor_7\1_Feladat\stack.c" > CMakeFiles\1_Feladat.dir\stack.c.i
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_CsillagAlex_AUT_C\Labor_8\1_Feladat\stack.c" > CMakeFiles\1_Feladat.dir\stack.c.i
 
 CMakeFiles/1_Feladat.dir/stack.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/1_Feladat.dir/stack.c.s"
-	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_CsillagAlex_AUT_C\Labor_7\1_Feladat\stack.c" -o CMakeFiles\1_Feladat.dir\stack.c.s
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_CsillagAlex_AUT_C\Labor_8\1_Feladat\stack.c" -o CMakeFiles\1_Feladat.dir\stack.c.s
 
 # Object files for target 1_Feladat
 1_Feladat_OBJECTS = \
@@ -131,7 +131,7 @@ CMakeFiles/1_Feladat.dir/stack.c.s: cmake_force
 1_Feladat.exe: CMakeFiles/1_Feladat.dir/linklibs.rsp
 1_Feladat.exe: CMakeFiles/1_Feladat.dir/objects1.rsp
 1_Feladat.exe: CMakeFiles/1_Feladat.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_CsillagAlex_AUT_C\Labor_7\1_Feladat\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable 1_Feladat.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_CsillagAlex_AUT_C\Labor_8\1_Feladat\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable 1_Feladat.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\1_Feladat.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -144,6 +144,6 @@ CMakeFiles/1_Feladat.dir/clean:
 .PHONY : CMakeFiles/1_Feladat.dir/clean
 
 CMakeFiles/1_Feladat.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_CsillagAlex_AUT_C\Labor_7\1_Feladat" "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_CsillagAlex_AUT_C\Labor_7\1_Feladat" "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_CsillagAlex_AUT_C\Labor_7\1_Feladat\cmake-build-debug" "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_CsillagAlex_AUT_C\Labor_7\1_Feladat\cmake-build-debug" "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_CsillagAlex_AUT_C\Labor_7\1_Feladat\cmake-build-debug\CMakeFiles\1_Feladat.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_CsillagAlex_AUT_C\Labor_8\1_Feladat" "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_CsillagAlex_AUT_C\Labor_8\1_Feladat" "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_CsillagAlex_AUT_C\Labor_8\1_Feladat\cmake-build-debug" "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_CsillagAlex_AUT_C\Labor_8\1_Feladat\cmake-build-debug" "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_CsillagAlex_AUT_C\Labor_8\1_Feladat\cmake-build-debug\CMakeFiles\1_Feladat.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/1_Feladat.dir/depend
 
