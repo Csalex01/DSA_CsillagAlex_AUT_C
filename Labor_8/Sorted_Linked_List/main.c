@@ -13,7 +13,6 @@ int main() {
     for(int i = 0; i < 20; i++)
         insert(&front, rand() % 20);
 
-
     traverse(front);
 
     return 0;
