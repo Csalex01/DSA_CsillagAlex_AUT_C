@@ -4,7 +4,7 @@
 
 #include "Exchange.h"
 
-Exchange* createExchange() {
+Exchange* createExchange(int year, int month, int forint, int penny) {
     Exchange* exchange = (Exchange*)malloc(sizeof(Exchange));
 
     if(!exchange) {
@@ -12,11 +12,11 @@ Exchange* createExchange() {
         return NULL;
     }
 
-    exchange->year = 0;
-    exchange->month = 0;
+    exchange->year = year;
+    exchange->month = month;
 
-    exchange->forint = 0;
-    exchange->penny = 0;
+    exchange->forint = forint;
+    exchange->penny = penny;
 
     return exchange;
 }

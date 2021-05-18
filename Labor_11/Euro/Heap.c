@@ -14,7 +14,10 @@ Heap* createHeap(int max) {
 
     heap->size = 0;
     heap->maxSize = max;
-    *heap->data = createExchange();
+    heap->data = (Exchange**)malloc(heap->maxSize * sizeof(Exchange*));
+
+    for(int i = 0; i < heap->maxSize; i++)
+        heap->data[i] = (Exchange*)malloc(sizeof(Exchange));
 
     return heap;
 }
@@ -31,12 +34,12 @@ Exchange* deleteMax(Heap* heap) {
 
 void insert(Heap* heap, Exchange* exchange) {
     heap->size++;
-    heap->data[heap->size] = exchange;
+    *heap->data[heap->size] = *exchange;
     up(heap, heap->size);
 }
 
 void up(Heap* heap, int i) {
-    while(i > 0 && !compare(heap->data[i / 2], heap->data[i])) {
+    while(i > 1 && !compare(heap->data[i / 2], heap->data[i])) {
         Exchange* tmp = heap->data[i / 2];
         heap->data[i / 2] = heap->data[i];
         heap->data[i] = tmp;
@@ -46,7 +49,7 @@ void up(Heap* heap, int i) {
 }
 
 void down(Heap* heap, int i) {
-    while(2 * i < heap->size) {
+    while(2 * i <= heap->size) {
         int j = 2 * i;
 
         if(j < heap->size && !compare(heap->data[j], heap->data[j + 1]))
@@ -92,17 +95,19 @@ Heap* readFromFile(char* fileName) {
     }
 
     for(int i = 0; i < n; i++) {
-        Exchange* tmp = createExchange();
+        int year, month;
 
-        fscanf(fin, "%i", &tmp->year);
-        fscanf(fin, "%i", &tmp->month);
+        fscanf(fin, "%i", &year);
+        fscanf(fin, "%i", &month);
 
         int exchangeRate;
         fscanf(fin, "%i", &exchangeRate);
 
-        tmp->penny = exchangeRate % 100;
+        int penny = exchangeRate % 100;
         exchangeRate /= 100;
-        tmp->forint = exchangeRate;
+        int forint = exchangeRate;
+
+        Exchange* tmp = createExchange(year, month, forint, penny);
 
         insert(heap, tmp);
     }

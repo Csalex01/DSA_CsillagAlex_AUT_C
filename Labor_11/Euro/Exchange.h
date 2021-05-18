@@ -17,7 +17,7 @@ typedef struct {
     int penny;
 } Exchange;
 
-Exchange* createExchange();
+Exchange* createExchange(int year, int month, int forint, int penny);
 
 bool compare(Exchange* ex1, Exchange* ex2);
 
