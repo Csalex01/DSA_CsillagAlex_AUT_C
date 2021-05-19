@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\HashTable.dir/objects.a
+C:\mingw64\bin\ar.exe cr CMakeFiles\HashTable.dir/objects.a @CMakeFiles\HashTable.dir\objects1.rsp
+C:\mingw64\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\HashTable.dir/objects.a -Wl,--no-whole-archive  -o HashTable.exe -Wl,--out-implib,libHashTable.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\HashTable.dir\linklibs.rsp
