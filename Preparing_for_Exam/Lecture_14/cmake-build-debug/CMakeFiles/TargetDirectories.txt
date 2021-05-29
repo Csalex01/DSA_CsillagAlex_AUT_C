@@ -1,0 +1,3 @@
+E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_CsillagAlex_AUT_C/Preparing_for_Exam/Lecture_14/cmake-build-debug/CMakeFiles/Lecture_14.dir
+E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_CsillagAlex_AUT_C/Preparing_for_Exam/Lecture_14/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_CsillagAlex_AUT_C/Preparing_for_Exam/Lecture_14/cmake-build-debug/CMakeFiles/rebuild_cache.dir
