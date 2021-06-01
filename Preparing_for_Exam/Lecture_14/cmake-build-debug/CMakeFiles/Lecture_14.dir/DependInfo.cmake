@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_CsillagAlex_AUT_C/Preparing_for_Exam/Lecture_14/1/BinarySearchTree.c" "E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_CsillagAlex_AUT_C/Preparing_for_Exam/Lecture_14/cmake-build-debug/CMakeFiles/Lecture_14.dir/1/BinarySearchTree.c.obj"
+  "E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_CsillagAlex_AUT_C/Preparing_for_Exam/Lecture_14/2/LinkedList.c" "E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_CsillagAlex_AUT_C/Preparing_for_Exam/Lecture_14/cmake-build-debug/CMakeFiles/Lecture_14.dir/2/LinkedList.c.obj"
   "E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_CsillagAlex_AUT_C/Preparing_for_Exam/Lecture_14/2/Stack.c" "E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_CsillagAlex_AUT_C/Preparing_for_Exam/Lecture_14/cmake-build-debug/CMakeFiles/Lecture_14.dir/2/Stack.c.obj"
   "E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_CsillagAlex_AUT_C/Preparing_for_Exam/Lecture_14/main.c" "E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_CsillagAlex_AUT_C/Preparing_for_Exam/Lecture_14/cmake-build-debug/CMakeFiles/Lecture_14.dir/main.c.obj"
   )

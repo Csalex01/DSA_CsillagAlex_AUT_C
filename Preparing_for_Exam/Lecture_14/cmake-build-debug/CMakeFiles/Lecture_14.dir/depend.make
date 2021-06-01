@@ -4,10 +4,14 @@
 CMakeFiles/Lecture_14.dir/1/BinarySearchTree.c.obj: ../1/BinarySearchTree.c
 CMakeFiles/Lecture_14.dir/1/BinarySearchTree.c.obj: ../1/BinarySearchTree.h
 
+CMakeFiles/Lecture_14.dir/2/LinkedList.c.obj: ../2/LinkedList.c
+CMakeFiles/Lecture_14.dir/2/LinkedList.c.obj: ../2/LinkedList.h
+
 CMakeFiles/Lecture_14.dir/2/Stack.c.obj: ../2/Stack.c
 CMakeFiles/Lecture_14.dir/2/Stack.c.obj: ../2/Stack.h
 
 CMakeFiles/Lecture_14.dir/main.c.obj: ../1/BinarySearchTree.h
+CMakeFiles/Lecture_14.dir/main.c.obj: ../2/LinkedList.h
 CMakeFiles/Lecture_14.dir/main.c.obj: ../2/Stack.h
 CMakeFiles/Lecture_14.dir/main.c.obj: ../main.c
 

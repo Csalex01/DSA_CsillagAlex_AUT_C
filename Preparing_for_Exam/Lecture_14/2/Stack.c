@@ -26,20 +26,42 @@ struct Stack *readStackFromFile(char *fileName) {
     }
 
     int year, month, day;
+    int counter = 0;
 
-    struct Stack *stack = createStack();
+    struct Stack *stack = NULL;
 
     while (true) {
         if (fscanf(fin, "%i", &year) == EOF ||
             fscanf(fin, "%i", &month) == EOF ||
             fscanf(fin, "%i", &day) == EOF)
+            break;
 
+        if(year < 1900 || year > 2000)
+            counter++;
+
+        if(counter >= 5)
             break;
 
         push(&stack, year, month, day);
     }
 
+    fclose(fin);
+
     return stack;
+}
+
+struct Stack* pop(struct Stack** stack) {
+    if(isEmpty(*stack))
+        return NULL;
+
+    struct Stack* aux = *stack;
+    *stack = (*stack)->next;
+
+    return aux;
+}
+
+bool isEmpty(struct Stack* stack) {
+    return stack == NULL;
 }
 
 void push(Stack **topPtr, int year, int month, int day) {

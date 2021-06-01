@@ -3,7 +3,9 @@
 
 
 #include "1/BinarySearchTree.h"
+
 #include "2/Stack.h"
+#include "2/LinkedList.h"
 
 int main() {
     /// 1. Feladat
@@ -38,11 +40,27 @@ int main() {
     printf("\n\n");
 
     /// 2. feladat
-    printf("2. feladat\n");
+    printf("2. feladat\n\n");
 
     struct Stack* stack = readStackFromFile("input_2.txt");
 
+    printf("Stack: \n");
     traverseStack(stack);
+
+    LinkedList* front = NULL;
+
+    for(int i = 0; i < 10; i++)
+        insertIntoLinkedList(&front, 0, i);
+
+    while(!isEmpty(stack)) {
+        int year = pop(&stack)->year;
+        int index = (year % 100) / 10;
+
+        increaseIndex(front, index);
+    }
+
+    printf("\nLinkedList: \n");
+    traverseLinkedList(front);
 
     return 0;
 }

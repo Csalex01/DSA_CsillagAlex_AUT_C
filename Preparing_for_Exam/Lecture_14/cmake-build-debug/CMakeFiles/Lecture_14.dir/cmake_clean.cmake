@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Lecture_14.dir/1/BinarySearchTree.c.obj"
+  "CMakeFiles/Lecture_14.dir/2/LinkedList.c.obj"
   "CMakeFiles/Lecture_14.dir/2/Stack.c.obj"
   "CMakeFiles/Lecture_14.dir/main.c.obj"
   "Lecture_14.exe"

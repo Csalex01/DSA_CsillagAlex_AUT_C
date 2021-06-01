@@ -21,6 +21,8 @@ struct Stack* createStack();
 
 struct Stack* readStackFromFile(char* fileName);
 
+struct Stack* pop(struct Stack** stack);
+
 bool isEmpty(struct Stack* stack);
 
 void push(Stack** topPtr, int year, int month, int day);

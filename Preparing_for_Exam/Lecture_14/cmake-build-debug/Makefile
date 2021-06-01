@@ -169,6 +169,33 @@ Lecture_14/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lecture_14.dir\build.make CMakeFiles/Lecture_14.dir/1/BinarySearchTree.c.s
 .PHONY : 1/BinarySearchTree.c.s
 
+2/LinkedList.obj: 2/LinkedList.c.obj
+
+.PHONY : 2/LinkedList.obj
+
+# target to build an object file
+2/LinkedList.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lecture_14.dir\build.make CMakeFiles/Lecture_14.dir/2/LinkedList.c.obj
+.PHONY : 2/LinkedList.c.obj
+
+2/LinkedList.i: 2/LinkedList.c.i
+
+.PHONY : 2/LinkedList.i
+
+# target to preprocess a source file
+2/LinkedList.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lecture_14.dir\build.make CMakeFiles/Lecture_14.dir/2/LinkedList.c.i
+.PHONY : 2/LinkedList.c.i
+
+2/LinkedList.s: 2/LinkedList.c.s
+
+.PHONY : 2/LinkedList.s
+
+# target to generate assembly for a file
+2/LinkedList.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lecture_14.dir\build.make CMakeFiles/Lecture_14.dir/2/LinkedList.c.s
+.PHONY : 2/LinkedList.c.s
+
 2/Stack.obj: 2/Stack.c.obj
 
 .PHONY : 2/Stack.obj
@@ -235,6 +262,9 @@ help:
 	@echo ... 1/BinarySearchTree.obj
 	@echo ... 1/BinarySearchTree.i
 	@echo ... 1/BinarySearchTree.s
+	@echo ... 2/LinkedList.obj
+	@echo ... 2/LinkedList.i
+	@echo ... 2/LinkedList.s
 	@echo ... 2/Stack.obj
 	@echo ... 2/Stack.i
 	@echo ... 2/Stack.s
