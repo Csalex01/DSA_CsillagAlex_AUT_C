@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/Gyakorlas_Vizsgara/Huni/1_Feladat/Stack.h
+stdio.h
+-
+stdlib.h
+-
+stdbool.h
+-
+
+E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/Gyakorlas_Vizsgara/Huni/2_Feladat/BinarySearchTree.h
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+
+E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/Gyakorlas_Vizsgara/Huni/main.c
+stdio.h
+-
+string.h
+-
+1_Feladat/Stack.h
+E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/Gyakorlas_Vizsgara/Huni/1_Feladat/Stack.h
+2_Feladat/BinarySearchTree.h
+E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/Gyakorlas_Vizsgara/Huni/2_Feladat/BinarySearchTree.h
+

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Huni"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/Gyakorlas_Vizsgara/Huni/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/Gyakorlas_Vizsgara/Huni/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/Gyakorlas_Vizsgara/Huni/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/Gyakorlas_Vizsgara/Huni/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/Gyakorlas_Vizsgara/Huni/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Huni">
+				<Option output="E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/Gyakorlas_Vizsgara/Huni/cmake-build-debug/Huni.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/Gyakorlas_Vizsgara/Huni/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/Gyakorlas_Vizsgara/Huni/cmake-build-debug/Makefile&quot;  VERBOSE=1 Huni"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/Gyakorlas_Vizsgara/Huni/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/Gyakorlas_Vizsgara/Huni/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/Gyakorlas_Vizsgara/Huni/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Huni/fast">
+				<Option output="E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/Gyakorlas_Vizsgara/Huni/cmake-build-debug/Huni.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/Gyakorlas_Vizsgara/Huni/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/Gyakorlas_Vizsgara/Huni/cmake-build-debug/Makefile&quot;  VERBOSE=1 Huni/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/Gyakorlas_Vizsgara/Huni/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/Gyakorlas_Vizsgara/Huni/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/Gyakorlas_Vizsgara/Huni/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/Gyakorlas_Vizsgara/Huni/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/Gyakorlas_Vizsgara/Huni/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/Gyakorlas_Vizsgara/Huni/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/Gyakorlas_Vizsgara/Huni/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/Gyakorlas_Vizsgara/Huni/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/Gyakorlas_Vizsgara/Huni/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/Gyakorlas_Vizsgara/Huni/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/Gyakorlas_Vizsgara/Huni/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/Gyakorlas_Vizsgara/Huni/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/Gyakorlas_Vizsgara/Huni/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/Gyakorlas_Vizsgara/Huni/1_Feladat/Stack.c">
+			<Option target="Huni"/>
+		</Unit>
+		<Unit filename="E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/Gyakorlas_Vizsgara/Huni/1_Feladat/Stack.h">
+			<Option target="Huni"/>
+		</Unit>
+		<Unit filename="E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/Gyakorlas_Vizsgara/Huni/2_Feladat/BinarySearchTree.c">
+			<Option target="Huni"/>
+		</Unit>
+		<Unit filename="E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/Gyakorlas_Vizsgara/Huni/2_Feladat/BinarySearchTree.h">
+			<Option target="Huni"/>
+		</Unit>
+		<Unit filename="E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/Gyakorlas_Vizsgara/Huni/main.c">
+			<Option target="Huni"/>
+		</Unit>
+		<Unit filename="E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/Gyakorlas_Vizsgara/Huni/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
